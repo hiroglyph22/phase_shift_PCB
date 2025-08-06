@@ -1487,7 +1487,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x01_Socket"
+		(symbol "Connector:Conn_01x06_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1496,15 +1496,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x01_Socket"
-				(at 0 -2.54 0)
+			(property "Value" "Conn_01x06_Pin"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1529,7 +1529,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
+			(property "Description" "Generic connector, single row, 01x06, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1564,10 +1564,76 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x01_Socket_1_1"
+			(symbol "Conn_01x06_Pin_1_1"
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy -1.27 0) (xy -0.508 0)
+						(xy 1.27 5.08) (xy 0.8636 5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -1577,10 +1643,58 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1590,7 +1704,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 5.08 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -1600,6 +1714,96 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3031,6 +3235,12 @@
 		(uuid "3a6b78f6-a58c-41e6-b46d-4ade3129e9f1")
 	)
 	(junction
+		(at 143.51 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69cafc73-c59e-4e80-b4f4-db2b596fa94a")
+	)
+	(junction
 		(at 260.35 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3067,28 +3277,22 @@
 		(uuid "b0dadfff-7202-4e1e-9ea0-a2bbf7bb364b")
 	)
 	(junction
-		(at 191.77 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b74b9a66-6b6c-481d-a19e-b24c5256c113")
-	)
-	(junction
 		(at 247.65 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b87e2e17-bb8f-494e-bcb7-be05fab603ee")
 	)
 	(junction
-		(at 143.51 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c082764a-a503-4433-9053-4b62b752420d")
-	)
-	(junction
 		(at 107.95 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8ced134-6540-48fd-ad4c-3815e4841868")
+	)
+	(junction
+		(at 167.64 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb1201a0-aca9-4168-ba51-86465724f8f8")
 	)
 	(junction
 		(at 170.18 105.41)
@@ -3113,12 +3317,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f82048da-b2cf-454f-b7c5-35915693ffa6")
-	)
-	(junction
-		(at 167.64 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc2fe210-35e4-466b-9342-75ef9b5b99e9")
 	)
 	(wire
 		(pts
@@ -3744,9 +3942,9 @@
 			)
 		)
 	)
-	(global_label "CLK"
+	(global_label "CS1"
 		(shape input)
-		(at 62.23 125.73 180)
+		(at 156.21 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3754,9 +3952,9 @@
 			)
 			(justify right)
 		)
-		(uuid "11eedf0c-b71b-497d-9f87-634a56fcac57")
+		(uuid "1a3646eb-aeae-4f13-a2ae-7087b7c6ae3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.6767 125.73 0)
+			(at 149.5358 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,9 +3964,31 @@
 			)
 		)
 	)
-	(global_label "SDI"
+	(global_label "CS1"
 		(shape input)
-		(at 62.23 130.81 180)
+		(at 91.44 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25556ffc-585c-4dbb-9598-550e8b53df42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.1142 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CS2"
+		(shape input)
+		(at 93.98 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3776,14 +3996,80 @@
 			)
 			(justify right)
 		)
-		(uuid "504b9d9f-fe01-4b22-8007-df6eae8ff043")
+		(uuid "4d4a3b6a-10c2-47cd-a475-de57a725953f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.1605 130.81 0)
+			(at 87.3058 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK"
+		(shape input)
+		(at 91.44 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "593bce75-f561-4667-acab-994c551cf176")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.9933 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CS2"
+		(shape input)
+		(at 91.44 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60cf2144-7ed4-48eb-b2ab-6557866c1fc9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.1142 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDI"
+		(shape input)
+		(at 91.44 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8888a278-c55e-4b21-8c98-adac7cc4cd8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.5095 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3877,6 +4163,24 @@
 			)
 		)
 		(property "Description" "Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16"
+			(at 229.87 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 229.87 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 229.87 142.24 0)
 			(effects
 				(font
@@ -4010,71 +4314,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 88.9 30.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "036d84f8-5bd3-425b-a1d6-a8a770b1444c")
-		(property "Reference" "J12"
-			(at 89.535 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 89.535 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
-			(at 88.9 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 88.9 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d629d02c-1f3a-49a9-8d74-fd662c04f7bf")
-		)
-		(instances
-			(project "phase_shift_PCB"
-				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 243.84 147.32 270)
 		(unit 1)
@@ -4119,6 +4358,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 243.84 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM21NR71H104JT/929984"
+			(at 243.84 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "5% tolerance"
+			(at 243.84 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4186,6 +4443,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 140.97 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 140.97 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 140.97 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4329,6 +4604,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 173.99 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 173.99 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "f55758c4-f4d9-4255-80a5-ff4a19ff6fb6")
 		)
@@ -4415,6 +4708,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 179.07 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 179.07 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cea16a96-1718-48fe-916d-f696f0967fe8")
 		)
@@ -4444,6 +4755,95 @@
 				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
 					(reference "U1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 86.36 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a812cd7-f30f-4cd9-b795-c0d5eb9dbb19")
+		(property "Reference" "J8"
+			(at 86.995 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06_Pin"
+			(at 86.995 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
+			(at 86.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 86.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "http://digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300611121/4846833"
+			(at 86.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6aa85245-8cdb-48c8-ab52-67d5d93ed55c")
+		)
+		(pin "3"
+			(uuid "28c72215-38d6-4202-a6bc-97a74d7caae2")
+		)
+		(pin "4"
+			(uuid "beadb674-46a4-476d-9351-f49a7d844b7a")
+		)
+		(pin "5"
+			(uuid "5c23fcf4-b479-4536-84c2-dc9595bf34f5")
+		)
+		(pin "6"
+			(uuid "3bb5cf62-01c1-48ec-a4a3-87a13b58bf52")
+		)
+		(pin "1"
+			(uuid "97b0b864-77b7-4ae9-b7f5-d06024d3a386")
+		)
+		(instances
+			(project ""
+				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
+					(reference "J8")
+					(unit 1)
 				)
 			)
 		)
@@ -4493,6 +4893,24 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 118.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 118.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 118.11 102.87 0)
 			(effects
 				(font
@@ -4581,6 +4999,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 223.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 223.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 223.52 85.09 0)
 			(effects
 				(font
@@ -4697,7 +5133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 260.35 109.22 0)
 			(effects
 				(font
@@ -4716,6 +5152,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 260.35 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "http://digikey.com/en/products/detail/adam-tech/PH1-01-UA/9830231"
+			(at 260.35 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 260.35 109.22 0)
 			(effects
 				(font
@@ -4855,6 +5309,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM21BCG1H102FT/1116285"
+			(at 135.89 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 135.89 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "830553d2-cec5-4686-a9d3-d4b9b79efd66")
 		)
@@ -4938,35 +5410,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 63.5 115.57 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 148.59 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4f2e58c3-5013-4037-a90c-110e03b4b778")
-		(property "Reference" "J8"
-			(at 64.77 114.2999 0)
+		(uuid "4c51eed3-b872-4590-8f30-ca7b2a889ac2")
+		(property "Reference" "J3"
+			(at 147.955 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 64.77 116.8399 0)
+		(property "Value" "Conn_01x01_Pin"
+			(at 147.955 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
-			(at 63.5 115.57 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 148.59 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,7 +5445,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 115.57 0)
+			(at 148.59 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4984,7 +5454,25 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 63.5 115.57 0)
+			(at 148.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "http://digikey.com/en/products/detail/adam-tech/PH1-01-UA/9830231"
+			(at 148.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 148.59 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4993,79 +5481,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "014b0499-67c4-4c25-8ccf-37a7d723ad49")
+			(uuid "dd674689-5174-4d18-847d-1da3eee8563e")
 		)
 		(instances
 			(project "phase_shift_PCB"
 				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 67.31 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5298d313-f7a7-4678-8e94-163063faab04")
-		(property "Reference" "J11"
-			(at 68.58 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 68.58 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
-			(at 67.31 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 67.31 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f575766f-550d-43ee-9b7c-1df21eac5fd5")
-		)
-		(instances
-			(project "phase_shift_PCB"
-				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
-					(reference "J11")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5144,7 +5565,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5540af18-6dec-423e-a68b-1df1338ca9d9")
 		(property "Reference" "C4"
 			(at 135.89 68.58 90)
@@ -5182,6 +5603,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 135.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "Open"
+			(at 135.89 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 135.89 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5230,7 +5669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 260.35 100.33 0)
 			(effects
 				(font
@@ -5249,6 +5688,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 260.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "http://digikey.com/en/products/detail/adam-tech/PH1-01-UA/9830231"
+			(at 260.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 260.35 100.33 0)
 			(effects
 				(font
@@ -5314,6 +5771,24 @@
 			)
 		)
 		(property "Description" "Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16"
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 215.9 146.05 0)
 			(effects
 				(font
@@ -5431,6 +5906,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM21NR71H104JT/929984"
+			(at 264.16 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "5% tolerance"
+			(at 264.16 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b74f7742-f30a-4397-b589-10888c45ab94")
 		)
@@ -5491,6 +5984,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 264.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM21NR71H104JT/929984"
+			(at 264.16 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "5% tolerance"
+			(at 264.16 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5568,6 +6079,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 262.89 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 262.89 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cea16a96-1718-48fe-916d-f696f0967fea")
 		)
@@ -5602,13 +6131,80 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 91.44 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76b2f91e-2971-49b8-8a55-a0b79fa52e4f")
+		(property "Reference" "#PWR023"
+			(at 97.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "032c5dde-01a0-4cf9-b507-2c62c6ebd5b0")
+		)
+		(instances
+			(project "phase_shift_PCB"
+				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 135.89 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "76c01485-edc5-48ac-9b59-69568239264b")
 		(property "Reference" "C2"
 			(at 135.89 82.55 90)
@@ -5653,6 +6249,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "Open"
+			(at 135.89 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 135.89 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2b6a0c70-1591-4be6-bef9-afd7c4f57d05")
 		)
@@ -5669,80 +6283,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 148.59 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7894e85e-df37-4315-8d18-0c2eec5cc92b")
-		(property "Reference" "J3"
-			(at 149.86 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 149.86 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
-			(at 148.59 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 148.59 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ee90a92-e23c-4e49-acd1-52390a61de6c")
-		)
-		(instances
-			(project ""
-				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 153.67 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7e7422a4-2454-48ff-82ed-ca718c421aaf")
 		(property "Reference" "C3"
 			(at 153.67 87.63 90)
@@ -5780,6 +6327,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "Open"
+			(at 153.67 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 153.67 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5922,6 +6487,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 173.99 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 173.99 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7547844-12e0-49eb-812d-86da6d2b6d04")
 		)
@@ -5982,6 +6565,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 243.84 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM21NR71H104JT/929984"
+			(at 243.84 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "5% tolerance"
+			(at 243.84 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6071,71 +6672,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 151.13 31.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87bc8b57-0b67-46d5-bcac-522a899dea0a")
-		(property "Reference" "J10"
-			(at 151.765 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 151.765 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
-			(at 151.13 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 151.13 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09c663b3-cb9a-4ecc-ae93-310bfe76102d")
-		)
-		(instances
-			(project "phase_shift_PCB"
-				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 116.84 114.3 90)
 		(unit 1)
@@ -6181,6 +6717,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 116.84 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 116.84 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 116.84 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6250,6 +6804,24 @@
 			)
 		)
 		(property "Description" "Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16"
+			(at 250.19 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 250.19 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 250.19 135.89 0)
 			(effects
 				(font
@@ -6518,7 +7090,7 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 58.42 115.57 0)
+		(at 91.44 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6527,7 +7099,7 @@
 		(fields_autoplaced yes)
 		(uuid "c01469c5-12e4-4394-af78-18f2fdde440d")
 		(property "Reference" "#PWR013"
-			(at 58.42 119.38 0)
+			(at 87.63 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6536,15 +7108,16 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 58.42 110.49 0)
+			(at 95.25 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 115.57 0)
+			(at 91.44 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6553,7 +7126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 115.57 0)
+			(at 91.44 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6562,7 +7135,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 58.42 115.57 0)
+			(at 91.44 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6788,7 +7361,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cf1e5505-b0ca-4d18-811b-f682c2b17031")
 		(property "Reference" "J2"
 			(at 237.49 101.5999 0)
@@ -6800,7 +7372,7 @@
 			)
 		)
 		(property "Value" "SMA-J-P-H-ST-EM1"
-			(at 237.49 104.1399 0)
+			(at 237.236 103.886 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6829,6 +7401,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 223.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/amphenol-rf/132414/3053083"
+			(at 223.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 223.52 100.33 0)
 			(effects
 				(font
@@ -6976,6 +7566,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 111.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 111.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06fa6876-1e31-457e-973a-363f1176d232")
 		)
@@ -7102,7 +7710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 259.08 91.44 0)
 			(effects
 				(font
@@ -7121,6 +7729,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 259.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "http://digikey.com/en/products/detail/adam-tech/PH1-01-UA/9830231"
+			(at 259.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 259.08 91.44 0)
 			(effects
 				(font
@@ -7136,71 +7762,6 @@
 			(project "phase_shift_PCB"
 				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 162.56 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4e1d5ee-9585-43e1-9d67-1d3ce1f2bbae")
-		(property "Reference" "J4"
-			(at 163.195 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 163.195 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
-			(at 162.56 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 162.56 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e55bb868-fdd6-4837-b7d5-9742dd709ef1")
-		)
-		(instances
-			(project "phase_shift_PCB"
-				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7327,6 +7888,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/amphenol-rf/132414/3053083"
+			(at 97.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 97.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "51f7de90-8194-4400-b3f3-935d44829dc8")
 		)
@@ -7398,6 +7977,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 200.66 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 200.66 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "510a08ac-c2c0-4df2-8207-7f3876cd114f")
 		)
@@ -7450,73 +8047,6 @@
 			(project ""
 				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 191.77 59.69 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee77c78b-5845-4879-bd2c-93ab6774c527")
-		(property "Reference" "J13"
-			(at 193.04 57.7849 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 193.04 60.3249 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
-			(at 191.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 191.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff3e777a-be6d-45c8-b27a-4de226a5a65b")
-		)
-		(instances
-			(project "phase_shift_PCB"
-				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
-					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -7583,73 +8113,6 @@
 			(project "phase_shift_PCB"
 				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 67.31 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0ad4981-be47-4176-8ea2-ee5133cab76a")
-		(property "Reference" "J9"
-			(at 68.58 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 68.58 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
-			(at 67.31 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 67.31 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "068c5626-89d4-41d3-92cb-8cc065eeda1d")
-		)
-		(instances
-			(project "phase_shift_PCB"
-				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
-					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -7789,6 +8252,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 162.56 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5069a46-5525-4df1-8a17-aa3c910c2091")
+		(property "Reference" "J4"
+			(at 163.195 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 163.195 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 162.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 162.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "http://digikey.com/en/products/detail/adam-tech/PH1-01-UA/9830231"
+			(at 162.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 162.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11321a46-1b21-4255-a4e9-c9b4fef3611d")
+		)
+		(instances
+			(project "phase_shift_PCB"
+				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LM13700")
 		(at 205.74 100.33 0)
 		(unit 3)
@@ -7833,6 +8379,24 @@
 			)
 		)
 		(property "Description" "Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16"
+			(at 205.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 205.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 205.74 100.33 0)
 			(effects
 				(font
@@ -8015,6 +8579,24 @@
 			)
 		)
 		(property "Description" "1μA to 10mA 3-Terminal Adjustable Current Source, SO-8"
+			(at 215.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 215.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 215.9 81.28 0)
 			(effects
 				(font
