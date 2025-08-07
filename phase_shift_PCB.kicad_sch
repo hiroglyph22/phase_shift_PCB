@@ -1365,6 +1365,176 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:CONSMA020.062-G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CONSMA020.062-G"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CONSMA020062G"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/CONSMA020.062-G.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMA Connector Receptacle, Female Socket 50Ohm Board Edge, End Launch Solder"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "7.92"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "712-CONSMA020.062-G"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Linx-Technologies/CONSMA020.062-G?qs=xZ%2FP%252Ba9zWqa7zEs9%2FuMaNQ%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TE Connectivity"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CONSMA020.062-G"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CONSMA020.062-G_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x01_Pin"
 			(pin_names
 				(offset 1.016)
@@ -1804,578 +1974,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:SMA-J-P-H-ST-EM1"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 8.89 6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "SMA-J-P-H-ST-EM1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "CONN_SMA-J-P-H-ST-EM1_SAI"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "SMA-J-P-H-ST-EM1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SMA-J-P-H-ST-EM1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CONN_SMA-J-P-H-ST-EM1_SAI"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMA-J-P-H-ST-EM1_1_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 12.7 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 7.62 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 -2.54)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 -5.08)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -7.62) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SMA-J-P-H-ST-EM1_1_2"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 12.7 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -2.54) (xy 6.35 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 -2.54)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 -5.08)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -7.62) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3211,10 +2809,10 @@
 		(uuid "141483f6-0a97-47f7-9e15-b1232e898d53")
 	)
 	(junction
-		(at 223.52 104.14)
+		(at 76.2 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "243b795e-2ab0-4ddc-8848-cd52b5d38f22")
+		(uuid "1e64714a-4c8d-465f-a2f3-93dc8f05e233")
 	)
 	(junction
 		(at 132.08 88.9)
@@ -3227,12 +2825,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ec326ed-2265-400a-841b-cf2dc23deba2")
-	)
-	(junction
-		(at 97.79 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a6b78f6-a58c-41e6-b46d-4ade3129e9f1")
 	)
 	(junction
 		(at 143.51 100.33)
@@ -3287,6 +2879,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8ced134-6540-48fd-ad4c-3815e4841868")
+	)
+	(junction
+		(at 243.84 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e36e56fc-1fbc-45c2-a0c1-c9586f7a15a8")
 	)
 	(junction
 		(at 167.64 100.33)
@@ -3390,6 +2988,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 106.68) (xy 76.2 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3b068b-92d1-4a9c-8479-ee65dbd80b43")
+	)
+	(wire
+		(pts
 			(xy 132.08 105.41) (xy 137.16 105.41)
 		)
 		(stroke
@@ -3470,6 +3078,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 97.79) (xy 243.84 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e890a8-7911-4575-91a1-418ec3760406")
+	)
+	(wire
+		(pts
 			(xy 144.78 105.41) (xy 170.18 105.41)
 		)
 		(stroke
@@ -3500,16 +3118,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 102.87) (xy 223.52 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7319566a-d5c2-48aa-83e6-bda1c841bf04")
-	)
-	(wire
-		(pts
 			(xy 260.35 148.59) (xy 260.35 146.05)
 		)
 		(stroke
@@ -3527,16 +3135,6 @@
 			(type default)
 		)
 		(uuid "81f7f597-541c-4d72-b074-bf1f06b32d9d")
-	)
-	(wire
-		(pts
-			(xy 97.79 100.33) (xy 97.79 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82a997ea-612a-459b-8e17-33196b8a5245")
 	)
 	(wire
 		(pts
@@ -3640,6 +3238,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 107.95) (xy 76.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7263bd5-c95a-4cf3-b91a-d24359411b9b")
+	)
+	(wire
+		(pts
 			(xy 191.77 24.13) (xy 196.85 24.13)
 		)
 		(stroke
@@ -3700,7 +3308,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 105.41) (xy 107.95 105.41)
+			(xy 96.52 105.41) (xy 107.95 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3727,16 +3335,6 @@
 			(type default)
 		)
 		(uuid "de87725b-28f9-4b30-9c80-da633d679904")
-	)
-	(wire
-		(pts
-			(xy 223.52 104.14) (xy 223.52 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfc636f0-0322-40d2-8bc9-cd88bf387baf")
 	)
 	(wire
 		(pts
@@ -3847,16 +3445,6 @@
 			(type default)
 		)
 		(uuid "fd17f86d-0ab5-4f48-8a41-47ffebbf71a3")
-	)
-	(wire
-		(pts
-			(xy 97.79 101.6) (xy 97.79 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffed5a93-196b-4cfd-be35-d86ed6e8e782")
 	)
 	(label "W1"
 		(at 170.18 93.98 0)
@@ -4189,6 +3777,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "LM13700MX/NOPB"
+			(at 229.87 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "510a08ac-c2c0-4df2-8207-7f3876cd114c")
 		)
@@ -4383,6 +3980,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "KGM21NR71H104JT"
+			(at 243.84 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b10fc09c-8ace-4d6c-8c39-9cd86d8a35b3")
 		)
@@ -4460,6 +4066,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 140.97 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RG2012P-102-B-T5"
 			(at 140.97 105.41 90)
 			(effects
 				(font
@@ -4622,6 +4237,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "AD8400ARZ1-REEL"
+			(at 173.99 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "f55758c4-f4d9-4255-80a5-ff4a19ff6fb6")
 		)
@@ -4726,6 +4350,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "OPA2134UA/2K5"
+			(at 179.07 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cea16a96-1718-48fe-916d-f696f0967fe8")
 		)
@@ -4813,6 +4446,15 @@
 			)
 		)
 		(property "Link" "http://digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300611121/4846833"
+			(at 86.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "61300611121"
 			(at 86.36 77.47 0)
 			(effects
 				(font
@@ -4919,6 +4561,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "OPA2134UA/2K5"
+			(at 118.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cea16a96-1718-48fe-916d-f696f0967fe9")
 		)
@@ -5017,6 +4668,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 223.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERA-6AEB131V"
 			(at 223.52 85.09 0)
 			(effects
 				(font
@@ -5178,6 +4838,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PH1-01-UA"
+			(at 260.35 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a2046909-113e-444c-8ad7-21623dc832f0")
 		)
@@ -5192,7 +4861,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 104.14 270)
+		(at 243.84 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5201,7 +4870,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b1af9cf-9d50-4a7b-81f2-27bd5b337d89")
 		(property "Reference" "#PWR022"
-			(at 217.17 104.14 0)
+			(at 250.19 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5210,7 +4879,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 104.1399 90)
+			(at 247.65 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,7 +4888,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 104.14 0)
+			(at 243.84 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5228,7 +4897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 104.14 0)
+			(at 243.84 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5237,7 +4906,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 104.14 0)
+			(at 243.84 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5319,6 +4988,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 135.89 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KGM21BCG1H102FT"
 			(at 135.89 100.33 90)
 			(effects
 				(font
@@ -5480,6 +5158,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PH1-01-UA"
+			(at 148.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd674689-5174-4d18-847d-1da3eee8563e")
 		)
@@ -5628,6 +5315,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 135.89 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0533e0cd-8e9c-45f5-9b6b-381aa8a6a95a")
 		)
@@ -5714,6 +5410,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PH1-01-UA"
+			(at 260.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ce35470-a2f4-4bde-bfce-857a3e9909d8")
 		)
@@ -5721,6 +5426,147 @@
 			(project "phase_shift_PCB"
 				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:CONSMA020.062-G")
+		(at 76.2 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5da0251c-830f-4b08-96b8-788ca347a99f")
+		(property "Reference" "J1"
+			(at 86.36 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CONSMA020.062-G"
+			(at 86.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:CONSMA020062G"
+			(at 92.71 200.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/CONSMA020.062-G.pdf"
+			(at 92.71 300.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMA Connector Receptacle, Female Socket 50Ohm Board Edge, End Launch Solder"
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.92"
+			(at 92.71 500.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "712-CONSMA020.062-G"
+			(at 92.71 600.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Linx-Technologies/CONSMA020.062-G?qs=xZ%2FP%252Ba9zWqa7zEs9%2FuMaNQ%3D%3D"
+			(at 92.71 700.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 92.71 800.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CONSMA020.062-G"
+			(at 92.71 900.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/TE-Connectivity-Linx-Technologies/CONSMA020062-G?qs=xZ%2FP%2Ba9zWqa7zEs9%2FuMaNQ%3D%3D&utm_id=9491304176&gad_source=1&gclid=Cj0KCQjw2ou2BhCCARIsANAwM2F2jlRxyxUfb9mXOT7v08_Xg1iDkdstGeVbwxfxbidNtmoOPKILj9AaAgJIEALw_wcB"
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CONSMA020.062-G "
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98960bf9-d762-463f-8576-88d0ed9a018e")
+		)
+		(pin "1"
+			(uuid "e614c65d-d7fb-4eef-acd5-a9790fdecb04")
+		)
+		(pin "3"
+			(uuid "cc89531c-0786-4c5b-a36b-735786ad40ea")
+		)
+		(instances
+			(project ""
+				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5789,6 +5635,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM13700MX/NOPB"
 			(at 215.9 146.05 0)
 			(effects
 				(font
@@ -5924,6 +5779,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "KGM21NR71H104JT"
+			(at 264.16 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b74f7742-f30a-4397-b589-10888c45ab94")
 		)
@@ -6009,6 +5873,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "KGM21NR71H104JT"
+			(at 264.16 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "508026f6-9e46-4305-b518-73196b15391b")
 		)
@@ -6019,6 +5892,147 @@
 			(project "phase_shift_PCB"
 				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:CONSMA020.062-G")
+		(at 243.84 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7393c945-474c-4a03-8d57-2b21e9e4bc1f")
+		(property "Reference" "J2"
+			(at 233.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CONSMA020.062-G"
+			(at 233.68 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:CONSMA020062G"
+			(at 227.33 5.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/CONSMA020.062-G.pdf"
+			(at 227.33 -94.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMA Connector Receptacle, Female Socket 50Ohm Board Edge, End Launch Solder"
+			(at 243.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.92"
+			(at 227.33 -294.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "712-CONSMA020.062-G"
+			(at 227.33 -394.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Linx-Technologies/CONSMA020.062-G?qs=xZ%2FP%252Ba9zWqa7zEs9%2FuMaNQ%3D%3D"
+			(at 227.33 -494.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 227.33 -594.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CONSMA020.062-G"
+			(at 227.33 -694.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/TE-Connectivity-Linx-Technologies/CONSMA020062-G?qs=xZ%2FP%2Ba9zWqa7zEs9%2FuMaNQ%3D%3D&utm_id=9491304176&gad_source=1&gclid=Cj0KCQjw2ou2BhCCARIsANAwM2F2jlRxyxUfb9mXOT7v08_Xg1iDkdstGeVbwxfxbidNtmoOPKILj9AaAgJIEALw_wcB"
+			(at 243.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CONSMA020.062-G "
+			(at 243.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "164675ea-2d26-44aa-ad4e-c8d3cf7e9ede")
+		)
+		(pin "3"
+			(uuid "e9a1321c-ef94-4e4c-9521-8cd7377044e0")
+		)
+		(pin "1"
+			(uuid "a6720484-85ba-410f-a0a8-9cae9169e55b")
+		)
+		(instances
+			(project ""
+				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6089,6 +6103,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 262.89 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "OPA2134UA/2K5"
 			(at 262.89 135.89 0)
 			(effects
 				(font
@@ -6267,6 +6290,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 135.89 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2b6a0c70-1591-4be6-bef9-afd7c4f57d05")
 		)
@@ -6344,6 +6376,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 153.67 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 153.67 93.98 90)
 			(effects
 				(font
@@ -6505,6 +6546,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RG2012P-102-B-T5"
+			(at 173.99 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7547844-12e0-49eb-812d-86da6d2b6d04")
 		)
@@ -6582,6 +6632,15 @@
 			)
 		)
 		(property "Notes" "5% tolerance"
+			(at 243.84 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KGM21NR71H104JT"
 			(at 243.84 124.46 90)
 			(effects
 				(font
@@ -6742,6 +6801,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RG2012P-101-B-T5"
+			(at 116.84 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57cbd852-dc49-4ce4-81a4-3918bbe74ac8")
 		)
@@ -6822,6 +6890,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 250.19 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM13700MX/NOPB"
 			(at 250.19 135.89 0)
 			(effects
 				(font
@@ -6949,6 +7026,73 @@
 			(project "phase_shift_PCB"
 				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0504c96-1fb1-46cb-9088-abbd97389f82")
+		(property "Reference" "#PWR024"
+			(at 69.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 106.6801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e6bcbb0-677e-43af-b54a-fbb9eaa6acfe")
+		)
+		(instances
+			(project "phase_shift_PCB"
+				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7354,98 +7498,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:SMA-J-P-H-ST-EM1")
-		(at 223.52 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf1e5505-b0ca-4d18-811b-f682c2b17031")
-		(property "Reference" "J2"
-			(at 237.49 101.5999 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMA-J-P-H-ST-EM1"
-			(at 237.236 103.886 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:CONN_132414_AMP"
-			(at 223.52 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "SMA-J-P-H-ST-EM1"
-			(at 223.52 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/amphenol-rf/132414/3053083"
-			(at 223.52 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 223.52 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d317d337-dacc-4cad-b2fb-623ad10d17b6")
-		)
-		(pin "2"
-			(uuid "3299912c-ee2b-4f03-8e56-589d9e7fe152")
-		)
-		(pin "3"
-			(uuid "6eb1edf3-15b7-4135-970f-091c083b593b")
-		)
-		(instances
-			(project ""
-				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+15V")
 		(at 265.43 109.22 270)
 		(unit 1)
@@ -7576,6 +7628,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 111.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AD8400ARZ10-REEL"
 			(at 111.76 38.1 0)
 			(effects
 				(font
@@ -7755,6 +7816,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PH1-01-UA"
+			(at 259.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d58c03d-00df-45fb-aabc-d555a1658945")
 		)
@@ -7834,97 +7904,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:SMA-J-P-H-ST-EM1")
-		(at 97.79 105.41 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec1490a2-53f4-43be-b4bd-1f8080be7217")
-		(property "Reference" "J1"
-			(at 88.9 92.71 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SMA-J-P-H-ST-EM1"
-			(at 88.9 95.25 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Library:CONN_132414_AMP"
-			(at 97.79 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "SMA-J-P-H-ST-EM1"
-			(at 97.79 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/amphenol-rf/132414/3053083"
-			(at 97.79 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 97.79 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "51f7de90-8194-4400-b3f3-935d44829dc8")
-		)
-		(pin "1"
-			(uuid "d2899740-90a5-446f-988e-a170f15119d7")
-		)
-		(pin "3"
-			(uuid "cee9dcd3-0a2e-4f11-84e7-5b3f6072e200")
-		)
-		(instances
-			(project ""
-				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:LM13700")
 		(at 200.66 152.4 0)
 		(unit 1)
@@ -7987,6 +7966,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 200.66 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM13700MX/NOPB"
 			(at 200.66 152.4 0)
 			(effects
 				(font
@@ -8185,73 +8173,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 97.79 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f440af83-97e8-417a-bd53-475d2e6c059e")
-		(property "Reference" "#PWR021"
-			(at 104.14 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7953de40-d6f1-4671-b1fa-b6a5c340696c")
-		)
-		(instances
-			(project "phase_shift_PCB"
-				(path "/8eeff035-c93f-4cad-ab34-3be88fd17b29"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 162.56 100.33 0)
 		(unit 1)
@@ -8314,6 +8235,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 162.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PH1-01-UA"
 			(at 162.56 100.33 0)
 			(effects
 				(font
@@ -8397,6 +8327,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 205.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM13700MX/NOPB"
 			(at 205.74 100.33 0)
 			(effects
 				(font
@@ -8597,6 +8536,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 215.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM334M"
 			(at 215.9 81.28 0)
 			(effects
 				(font
